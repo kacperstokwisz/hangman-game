@@ -119,6 +119,7 @@ h1 {
     transition: transform 0.3s ease-in-out;
 }
 
-.notification-container .show {
-    transform: translateY(-50px)
-}
+.notification-container.show {
+    transform: translateY(-50px);
+  }
+  
